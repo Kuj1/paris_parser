@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "paris-parser"
+version = "0.1.0"
+description = ""
+authors = ["Kuj1 <the.same.dentist@gmail.com>"]
+readme = "README.md"
+packages = [{include = "paris_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+aiohttp = "^3.8.3"
+openpyxl = "^3.0.10"
+pandas = "^1.5.2"
+selenium = "^4.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

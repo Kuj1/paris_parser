@@ -1,0 +1,2 @@
+LOGIN = 'login'
+PASS = 'password'
